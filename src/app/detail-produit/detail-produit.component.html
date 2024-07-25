@@ -1,0 +1,13 @@
+<div class="container mt-4">
+    <div class="face-snap-card card h-100">
+      <img [src]="product.imageUrl" class="card-img-top" [alt]="product.title">
+      <div class="card-body">
+        <h2>{{ product.title | uppercase }} 🤌</h2>
+        <p>{{ product.description }}</p>
+        <p>Prix: {{ product.price | number:'1.2-2' }} EURO</p>
+        <p>Produit ajouté le {{ product.createdAt | date:'shortDate' }}</p>
+        <!-- <a class="btn btn-primary" (click)="selectedProduct = undefined">Retour à la liste des produits</a> -->
+      </div>
+    </div>
+  </div>
+  
