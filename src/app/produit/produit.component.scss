@@ -12,4 +12,25 @@
     border-radius: 10px; /* Optionnel : pour arrondir les coins */
     padding: 20px; /* Optionnel : pour ajouter de l'espace autour du contenu */
   }
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* Pour que l'image soit bien contenue dans la carte sans être déformée */
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* Pour que l'image soit bien contenue dans la carte sans être déformée */
+  }
+  
+  
+  .btn-success {
+    background-color: green;
+    border-color: green;
+  }
+  
+  .btn-success .fa-eye {
+    color: white;
+  }
+  
   
