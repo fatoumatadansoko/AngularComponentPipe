@@ -10,6 +10,7 @@
           "style": "scss",
           "skipTests": true
         },
+        
         "@schematics/angular:class": {
           "skipTests": true
         },
@@ -52,8 +53,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+  "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+  "src/styles.scss"
+]
+,
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -61,6 +64,8 @@
               "entry": "server.ts"
             }
           },
+          
+          
           "configurations": {
             "production": {
               "budgets": [
@@ -128,4 +133,5 @@
   "cli": {
     "analytics": "758cc388-e7d1-4af1-913c-08f4e0953f94"
   }
+  
 }
